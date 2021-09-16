@@ -10,7 +10,7 @@ public class FloorSquareRoot {
             if (mid * mid == x) return mid;
             if (mid * mid < x) {
                 start = mid + 1;
-                ans = mid + 2;
+                ans = mid;
             } else {
                 end = mid - 1;
             }
